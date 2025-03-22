@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--  
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+  - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!--  
+    - #MAIN
+  -->
+  <main>
+    <!--  
+      - #SIDEBAR
+    -->
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+
+          <img src="./assets/images/my-avatar.png" alt="Jiating Hu" width="88">
+
+        </figure>
+
+        <div class="info-content">
+
+          <h1 class="name" title="Jiating Hu">Jiating Hu</h1>
+
+          <p class="title">Web developer</p>
+
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down-outline"></ion-icon>
+          <!-- <ion-icon name="chevron-up-outline"></ion-icon> -->
+
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+
+              <ion-icon name="mail-outline"></ion-icon>
+              
+            </div>
+
+            <div class="contact-info">
+
+              <p class="contact-title">EMAIL</p>
+
+              <a href="mailto:3356620384@qq.com" class="contact-link">3356620384@qq.com</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+              
+            </div>
+
+            <div class="contact-info">
+
+              <p class="contact-title">PHONE</p>
+
+              <a href="tel:18879249532" class="contact-link">18879249532</a>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+
+              <ion-icon name="calendar-outline"></ion-icon>
+              
+            </div>
+
+            <div class="contact-info">
+
+              <p class="contact-title">BIRTHDAY</p>
+
+              <time datetime="2004-05-25">May 25, 2004</time>
+
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+
+              <ion-icon name="location-outline"></ion-icon>
+              
+            </div>
+
+            <div class="contact-info">
+
+              <p class="contact-title">LOCATION</p>
+
+              <address>Guangdong</address>
+
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+
+            <a href="" class="social-link">
+
+              <ion-icon name="logo-facebook"></ion-icon>
+
+            </a>
+
+          </li>
+
+          <li class="social-item">
+
+            <a href="" class="social-link">
+
+              <ion-icon name="logo-twitter"></ion-icon>
+
+            </a>
+
+          </li>
+
+          <li class="social-item">
+
+            <a href="" class="social-link">
+
+              <ion-icon name="logo-instagram"></ion-icon>
+
+            </a>
+
+          </li>
+          
+        </ul>
+
+    </aside>
+
+    <!--  
+      - #main-content
+    -->
+    <div class="mian-content">
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+
+            <button class="navbar-link active" data-nav-link>About</button>
+
+          </li>
+
+          <li class="navbar-item">
+
+            <button class="navbar-link" data-nav-link>Resume</button>
+
+          </li>
+
+          <li class="navbar-item">
+
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+
+          </li>
+
+          <li class="navbar-item">
+
+            <button class="navbar-link" data-nav-link>Blog</button>
+
+          </li>
+
+          <li class="navbar-item">
+
+            <button class="navbar-link" data-nav-link>Contact</button>
+
+          </li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+
+    <!--  
+      - #ABOUT
+    -->
+    <article class="about" data-page="about">
+
+      <header>
+
+        <h2 class="h2 article-title">About Me</h2>
+
+      </header>
+
+      <section class="about-text">
+        <p>
+          I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
+        </p>
+
+        <p>
+          My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
+        </p>
+      </section>
+
+      <!--  
+        - service
+      -->
+
+      <section class="service">
+
+        <header>
+          <h3 class="h3 article-title">What i'm doing</h3>
+        </header>
+
+        <ul class="service-list">
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-design.svg" alt="design icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Web design</h4>
+              <p class="service-item-text">
+                The most modern and high-quality design made at a professional level.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Web development</h4>
+              <p class="service-item-text">
+                High-quality development of sites at the professional level.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Mobile apps</h4>
+              <p class="service-item-text">
+                Professional development of applications for iOS and Android.
+              </p>
+            </div>
+          </li>
+
+          <li class="service-item">
+            <div class="service-icon-box">
+              <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+            </div>
+
+            <div class="service-content-box">
+              <h4 class="h4 service-item-title">Photography</h4>
+              <p class="service-item-text">
+                I make high-quality photos of any category at a professional level.
+              </p>
+            </div>
+          </li>
+        </ul>
+
+      </section>
+
+      <!--  
+        - testimonials
+      -->
+      <section class="testimonials">
+
+        <h3 class="h3 testimonials-title">Testimonials</h3>
+
+        <ul class="testimonials-list has-scrollbar">
+
+          <li class="testimonials-item">
+
+            <a href="#" class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+
+              </div>
+            </a>
+
+          </li>
+
+          <li class="testimonials-item">
+
+            <a href="#" class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+
+                <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+
+              </div>
+            </a>
+
+          </li>
+
+          <li class="testimonials-item">
+
+            <a href="#" class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+
+                <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+
+              </div>
+            </a>
+
+          </li>
+
+          <li class="testimonials-item">
+
+            <a href="#" class="content-card" data-testimonials-item>
+
+              <figure class="testimonials-avatar-box">
+
+                <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+
+              </figure>
+
+              <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+              <div class="testimonials-text" data-testimonials-text>
+
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+
+              </div>
+            </a>
+
+          </li>
+
+        </ul>
+
+      </section>
+
+    </article>
+
+  </main>
+
+
+
+
+
+
+
+
+  <!--  
+    - #custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - #ionicon link 
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
+
